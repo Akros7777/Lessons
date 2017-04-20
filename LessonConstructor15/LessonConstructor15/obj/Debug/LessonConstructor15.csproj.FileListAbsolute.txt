@@ -1,1 +1,6 @@
 D:\Lessons\LessonConstructor15\LessonConstructor15\bin\Debug\LessonConstructor15.exe.config
+D:\Lessons\LessonConstructor15\LessonConstructor15\bin\Debug\LessonConstructor15.exe
+D:\Lessons\LessonConstructor15\LessonConstructor15\bin\Debug\LessonConstructor15.pdb
+D:\Lessons\LessonConstructor15\LessonConstructor15\obj\Debug\LessonConstructor15.csprojResolveAssemblyReference.cache
+D:\Lessons\LessonConstructor15\LessonConstructor15\obj\Debug\LessonConstructor15.exe
+D:\Lessons\LessonConstructor15\LessonConstructor15\obj\Debug\LessonConstructor15.pdb
