@@ -41,6 +41,7 @@ namespace LessonConstructor15
             List <Student> listStudents = new List<Student>() { studentIvan, studentAnton, studentDenis };
             listStudents.ForEach(tempStudent => { tempStudent.PrintStudent(); });
 
+            Console.ReadKey();
         }
     }
 }
