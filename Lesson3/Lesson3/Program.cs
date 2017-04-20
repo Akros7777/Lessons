@@ -19,6 +19,7 @@ namespace Lesson3
             c = Math.Sqrt(Math.Pow(a, 2) + Math.Pow(b, 2) - 2 * a * b * Math.Cos(90 * Math.PI / 180));
             Console.WriteLine("длина гепотинузы по теореме косинусов=" + c);
             Console.ReadLine();
+            //new test line
         }
     }
 }
