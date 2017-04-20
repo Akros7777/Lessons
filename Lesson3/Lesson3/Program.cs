@@ -20,6 +20,7 @@ namespace Lesson3
             Console.WriteLine("длина гепотинузы по теореме косинусов=" + c);
             Console.ReadLine();
             //line for commit
+            //new test line
         }
     }
 }
