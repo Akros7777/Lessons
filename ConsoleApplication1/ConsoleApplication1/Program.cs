@@ -8,80 +8,81 @@ namespace ConsoleApplication1
 {
     class Warrior
     {
-        public double heaalth;
-        public double armor;
-        public double koefficientDamage;
-        public Warrior(double h, double arm, double kdmg)
+        private int _heaalth;
+        private int _armor;
+        public int heaalth
+        {
+            get { return _heaalth; }
+            set { _heaalth = (value < 0) ? 0 : value; }
+        }
+        public int armor
+        {
+            get { return _armor; }
+            set { _armor = (value < 0) ? 0 : value; }
+        }
+        public Warrior(int h, int arm)
         {
             heaalth = h;
             armor = arm;
-            koefficientDamage = kdmg;
         }
-        public virtual void GetDamage(double dmg)
+        public virtual void GetDamage(int damage)
         {
-            if (dmg > 0)
+            if (damage >= 0)
             {
-                armor = armor - (dmg * koefficientDamage);
-                heaalth = heaalth + armor;
+                int totalDamage = this.CalculateTotalDamage(damage);
+                heaalth = heaalth - ((totalDamage - armor) < 0 ? 0 : (totalDamage - armor));
+                armor = (armor - totalDamage) < 0 ? 0 : (armor - totalDamage);
+                Console.WriteLine("Наносимый урон воину - " + damage + "\nЖизней после нанесенного урона " + heaalth + ", \nБрони после нанесенного урона " + armor + "\n");
             }
-            else
-                armor = armor * 1;
-                heaalth = heaalth * 1;
-            Console.WriteLine("жизней после нанесенного урона " + heaalth + " брони после нанесенного урона " + armor);
         }
+
+        public void PrintWarrior()
+        {
+            Console.WriteLine("Воин: " + this.GetType().Name + " жизней " + this.heaalth + ", брони " + this.armor);
+        }
+
+        public virtual int CalculateTotalDamage(int damage)
+        {
+            return damage;
+        }
+
     }
 
     class WarriorLight : Warrior
     {
-        public WarriorLight (double h, double arm, double kdmg) : base(h,arm,kdmg)
+        public WarriorLight (int h, int arm) : base(h,arm) {}
+
+        public override int CalculateTotalDamage(int damage)
         {
-        }
-        public override void GetDamage(double dmg)
-        {
-            if (dmg > 0)
-            {
-                armor = armor - (dmg * koefficientDamage);
-                heaalth = heaalth + armor;
-            }
-            else
-                armor = armor * 1;
-                heaalth = heaalth * 1;
-                Console.WriteLine("жизней после нанесенного урона " + heaalth + " брони после нанесенного урона " + armor);
+            return damage * 2;
         }
     }
 
     class WarriorHigh : Warrior
     {
-        public WarriorHigh(double h, double arm, double kdmg) : base(h, arm, kdmg)
+        public WarriorHigh(int h, int arm) : base(h, arm) {}
+ 
+        public override int CalculateTotalDamage(int damage)
         {
-        }
-        public override void GetDamage(double dmg)
-        {
-            if (dmg > 0)
-            {
-                armor = armor - (dmg * koefficientDamage);
-                heaalth = heaalth + armor;
-            }
-            else 
-                armor = armor * 1;
-                heaalth = heaalth * 1;
-                Console.WriteLine("жизней после нанесенного урона " + heaalth + " брони после нанесенного урона " + armor);
+            return damage / 2;
         }
     }
     class Program
     {
         static void Main(string[] args)
         {
-            double dmg = 150f;
-            Warrior W = new Warrior(150f, 100f, 1f);
-            Console.WriteLine("Воин в обычной броне: " + "жизней " + W.heaalth + ", брони " + W.armor);
-            W.GetDamage(dmg);
-            WarriorLight WL = new WarriorLight(100f, 30f, 1.5f);
-            Console.WriteLine("Воин в легкой броне: " + "жизней - " + WL.heaalth + ", брони " + WL.armor);
-            WL.GetDamage(dmg);
-            WarriorHigh WH = new WarriorHigh(300f, 150f, 0.4f);
-            Console.WriteLine("Воин в тяжелой броне: " + "жизней " + WH.heaalth + ", брони " + WH.armor);
-            WH.GetDamage(dmg);
+            int dmg = 150;
+            Warrior warrior = new Warrior(150, 100);
+            WarriorLight warriorLight = new WarriorLight(150, 100);
+            WarriorHigh warriorHigh = new WarriorHigh(150, 100);
+
+            List < Warrior > warriorsList = new List<Warrior> { warrior, warriorLight, warriorHigh };
+            warriorsList.ForEach((war) =>
+            {
+                war.PrintWarrior();
+                war.GetDamage(dmg);
+            });
+
             Console.ReadLine();
         }
     }

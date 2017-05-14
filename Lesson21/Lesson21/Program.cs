@@ -19,56 +19,48 @@ namespace Lesson21
 
     class Ukrain : Human
     {
-        public string Nation { get; set; }
-
-        public Ukrain (string name, string nation): base (name)
-        {
-            Nation = nation;
-        }
+        public Ukrain (string name): base (name)
+        {}
 
         public override void sayHello()
         {
-            Console.WriteLine("{1} {0} говорит: Привiт!", Name, Nation);
+            Console.WriteLine(Name + " говорить: Привiт!");
         }
     }
 
     class Russian : Human
     {
-        public string Nation { get; set; }
-        public Russian(string name, string nation): base (name)
-        {
-            Nation = nation;
-        }
+        public Russian(string name): base (name)
+        {}
 
         public override void sayHello()
         {
-            Console.WriteLine("{1} {0} говорит: Привет!", Name, Nation);
+            Console.WriteLine(Name + " говорит: Привет!");
         }
     }
 
     class American : Human
     {
-        public string Nation { get; set; }
-        public American(string name, string nation): base (name)
-        {
-            Nation = nation;
-        }
+        public American(string name): base (name)
+        {}
 
         public override void sayHello()
         {
-            Console.WriteLine("{1} {0} говорит: Hello!", Name, Nation);
+            Console.WriteLine(Name + " say: Hello!");
         }
     }
     class Program
     {
         static void Main(string[] args)
         {
-            Ukrain ukrMan = new Ukrain("Иван", "Украинец");
-            ukrMan.sayHello();
-            Russian rusMan = new Russian("Антон", "Россиянин");
-            rusMan.sayHello();
-            American americMan = new American("Кирил", "Американец");
-            americMan.sayHello();
+            List<Human> humans = new List<Human>();
+            humans.Add(new Ukrain("Iван"));
+            humans.Add(new Russian("Антон"));
+            humans.Add(new American("Maykl"));
+
+            foreach (Human human in humans)
+                human.sayHello();
+
             Console.ReadLine();
         }
     }
