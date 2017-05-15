@@ -11,7 +11,11 @@ namespace Lesson22
         void switchON();
         void switchOFF();
     }
-    class TV : ISwitchable
+    interface IRearrange
+    {
+        void rearrange();
+    }
+    class TV : ISwitchable, IRearrange
     {
         public void switchON()
         {
@@ -21,8 +25,12 @@ namespace Lesson22
         {
             Console.WriteLine("Выключить TV!");
         }
+        public void rearrange()
+        {
+            Console.WriteLine("Переставить TV!");
+        }
     }
-    class PC : ISwitchable
+    class PC : ISwitchable, IRearrange
     {
         public void switchON()
         {
@@ -32,6 +40,10 @@ namespace Lesson22
         {
             Console.WriteLine("Выключить PC!");
         }
+        public void rearrange()
+        {
+            Console.WriteLine("Переставить PC!");
+        }
     }
     class Program
     {
@@ -40,11 +52,15 @@ namespace Lesson22
             List <ISwitchable> swit = new List<ISwitchable>();
             swit.Add(new TV());
             swit.Add(new PC());
-
             foreach (ISwitchable s in swit)
             {
                 s.switchON();
                 s.switchOFF();
+                IRearrange r = s as IRearrange;
+                if (r != null)
+                {
+                    r.rearrange();
+                }
             }
             Console.ReadKey();
         }
