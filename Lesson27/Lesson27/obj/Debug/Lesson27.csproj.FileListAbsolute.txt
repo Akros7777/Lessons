@@ -1,0 +1,6 @@
+D:\Lessons\Lesson27\Lesson27\bin\Debug\Lesson27.exe.config
+D:\Lessons\Lesson27\Lesson27\bin\Debug\Lesson27.exe
+D:\Lessons\Lesson27\Lesson27\bin\Debug\Lesson27.pdb
+D:\Lessons\Lesson27\Lesson27\obj\Debug\Lesson27.csprojResolveAssemblyReference.cache
+D:\Lessons\Lesson27\Lesson27\obj\Debug\Lesson27.exe
+D:\Lessons\Lesson27\Lesson27\obj\Debug\Lesson27.pdb
