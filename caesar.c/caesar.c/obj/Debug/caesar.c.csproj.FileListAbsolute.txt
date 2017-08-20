@@ -1,0 +1,6 @@
+D:\Lessons111\caesar.c\caesar.c\bin\Debug\caesar.c.exe.config
+D:\Lessons111\caesar.c\caesar.c\bin\Debug\caesar.c.exe
+D:\Lessons111\caesar.c\caesar.c\bin\Debug\caesar.c.pdb
+D:\Lessons111\caesar.c\caesar.c\obj\Debug\caesar.c.csprojResolveAssemblyReference.cache
+D:\Lessons111\caesar.c\caesar.c\obj\Debug\caesar.c.exe
+D:\Lessons111\caesar.c\caesar.c\obj\Debug\caesar.c.pdb

@@ -1,0 +1,21 @@
+c:\users\артур\documents\visual studio 2015\Projects\ConsoleApplication13\ConsoleApplication13\bin\Debug\ConsoleApplication13.exe.config
+c:\users\артур\documents\visual studio 2015\Projects\ConsoleApplication13\ConsoleApplication13\bin\Debug\ConsoleApplication13.exe
+c:\users\артур\documents\visual studio 2015\Projects\ConsoleApplication13\ConsoleApplication13\bin\Debug\ConsoleApplication13.pdb
+c:\users\артур\documents\visual studio 2015\Projects\ConsoleApplication13\ConsoleApplication13\obj\Debug\ConsoleApplication13.csprojResolveAssemblyReference.cache
+c:\users\артур\documents\visual studio 2015\Projects\ConsoleApplication13\ConsoleApplication13\obj\Debug\ConsoleApplication13.exe
+c:\users\артур\documents\visual studio 2015\Projects\ConsoleApplication13\ConsoleApplication13\obj\Debug\ConsoleApplication13.pdb
+D:\Рабочий стол\РРРРабочий стол\Projects\ConsoleApplication13\ConsoleApplication13\bin\Debug\ConsoleApplication13.exe.config
+D:\Рабочий стол\РРРРабочий стол\Projects\ConsoleApplication13\ConsoleApplication13\obj\Debug\ConsoleApplication13.exe
+D:\Рабочий стол\РРРРабочий стол\Projects\ConsoleApplication13\ConsoleApplication13\obj\Debug\ConsoleApplication13.pdb
+D:\Рабочий стол\РРРРабочий стол\Projects\ConsoleApplication13\ConsoleApplication13\bin\Debug\ConsoleApplication13.exe
+D:\Рабочий стол\РРРРабочий стол\Projects\ConsoleApplication13\ConsoleApplication13\bin\Debug\ConsoleApplication13.pdb
+D:\Рабочий стол\РРРРабочий стол\Projects\ConsoleApplication13\ConsoleApplication13\obj\Debug\ConsoleApplication13.csprojResolveAssemblyReference.cache
+C:\Users\Artur\Desktop\Projects\ConsoleApplication13\ConsoleApplication13\bin\Debug\ConsoleApplication13.exe.config
+C:\Users\Artur\Desktop\Projects\ConsoleApplication13\ConsoleApplication13\obj\Debug\ConsoleApplication13.exe
+C:\Users\Artur\Desktop\Projects\ConsoleApplication13\ConsoleApplication13\obj\Debug\ConsoleApplication13.pdb
+C:\Users\Artur\Desktop\Projects\ConsoleApplication13\ConsoleApplication13\bin\Debug\ConsoleApplication13.exe
+C:\Users\Artur\Desktop\Projects\ConsoleApplication13\ConsoleApplication13\bin\Debug\ConsoleApplication13.pdb
+C:\Users\Artur\Desktop\Projects\ConsoleApplication13\ConsoleApplication13\obj\Debug\ConsoleApplication13.csprojResolveAssemblyReference.cache
+D:\Lessons\ConsoleApplication13\ConsoleApplication13\bin\Debug\ConsoleApplication13.exe.config
+D:\Lessons\ConsoleApplication13\ConsoleApplication13\obj\Debug\ConsoleApplication13.exe
+D:\Lessons\ConsoleApplication13\ConsoleApplication13\obj\Debug\ConsoleApplication13.pdb

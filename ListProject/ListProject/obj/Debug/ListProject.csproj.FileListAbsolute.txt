@@ -1,0 +1,5 @@
+D:\Lessons\ListProject\ListProject\bin\Debug\ListProject.exe.config
+D:\Lessons\ListProject\ListProject\bin\Debug\ListProject.exe
+D:\Lessons\ListProject\ListProject\bin\Debug\ListProject.pdb
+D:\Lessons\ListProject\ListProject\obj\Debug\ListProject.exe
+D:\Lessons\ListProject\ListProject\obj\Debug\ListProject.pdb

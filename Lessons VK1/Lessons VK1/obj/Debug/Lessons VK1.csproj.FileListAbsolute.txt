@@ -1,0 +1,6 @@
+D:\Lessons\Lessons VK1\Lessons VK1\bin\Debug\Lessons VK1.exe.config
+D:\Lessons\Lessons VK1\Lessons VK1\bin\Debug\Lessons VK1.exe
+D:\Lessons\Lessons VK1\Lessons VK1\bin\Debug\Lessons VK1.pdb
+D:\Lessons\Lessons VK1\Lessons VK1\obj\Debug\Lessons VK1.csprojResolveAssemblyReference.cache
+D:\Lessons\Lessons VK1\Lessons VK1\obj\Debug\Lessons VK1.exe
+D:\Lessons\Lessons VK1\Lessons VK1\obj\Debug\Lessons VK1.pdb
